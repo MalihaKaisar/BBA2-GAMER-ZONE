@@ -405,10 +405,107 @@ nav {
 
 
 
-.footer-here> .icon{
+.footer-here>.icon {
     margin-left: 320px;
 }
-.icon> .fa{
+
+.icon>.fa {
     color: white;
     padding: 20px;
+}
+
+/* footer section end here */
+
+/* media queries */
+/* for mobile devices */
+
+@media screen and (max-width:576px) {
+
+    nav,
+    .Menu-bar,
+    .Menu-bar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .Menu-bar Follow-us {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+
+    /* banner section */
+    .Banner,
+    .banner-img-banner {
+        flex-direction: column-reverse;
+        background-color: #fff;
+
+    }
+    .Banner-content{
+        width: 95%;
+        padding-left: 20px;
+        padding-top: 50px;
+
+    }
+    .Go-Rouge{
+        margin-left: 0;
+
+    }
+    .banner-img-banner{
+        margin-top: 30px;
+        width: 100%;
+        flex-direction: column-reverse;
+
+    }
+    .banner-img-banner img{
+        width: 300px;
+        height: 300px;
+
+    }
+
+    /* online game responsive */
+    .funny-videos-image-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+     .funny-videos-image-container{
+        padding-left: 20px;
+
+     }
+
+     .instant-play{
+        flex-direction: column;
+     }
+     .instant-play .play-instant-title{
+        padding-left: 50px;
+        text-align-last: left;
+
+     }
+
+     .insta-content{
+        padding-left: 370px;
+        width: 100%;
+     }
+     .insta-content> .text-pink-c-d{
+        text-align: left;
+        padding-right: 20px;
+
+     }
+     .Img-cons{
+        width: 100%;
+
+     }
+     .Img-cons .img{
+        width: 100%;
+        height: 100%;
+        padding-right: 250px;
+
+     }
+
+
 }
