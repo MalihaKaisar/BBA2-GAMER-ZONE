@@ -120,7 +120,7 @@ nav {
     padding: 15px 20px;
     gap: 10px;
     border-radius: 25px;
-    border:0;
+    border: 0;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: white;
 
@@ -133,15 +133,149 @@ nav {
     padding: 15px 20px;
     gap: 10px;
     border-radius: 25px;
-    border:0;
+    border: 0;
     background: #4EC5F7;
     color: white;
 }
 
-.banner-img-banner{
+.banner-img-banner {
     padding-left: 40px;
     width: 80%;
 
 }
 
 /* banner section ended here */
+
+/* online games funny videos section started here */
+
+
+
+.funny-videos-title {
+    margin: 100px 100px 20px 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+
+
+}
+
+.text-pink-c {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+
+.para-f {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.funny-videos-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-one-content {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+
+
+}
+
+.image-two-content {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+
+
+}
+
+.image-three-content {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+
+
+}
+
+.image-four-content {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+
+
+}
+
+.image-para {
+    font-size: .8rem;
+    margin-top: 8px;
+    text-align: left;
+}
+
+/* instantly play section start here */
+
+.instant-play {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.insta-content{
+    margin-right: 250px;
+    width: 50%;
+}
+.play-instant-title{
+   text-align: right;
+
+}
+
+.text-pink-c-d{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.play-instant-para {
+    margin-top: 10px;
+    color: #534C64;
+    font-size: .8rem;
+    text-align: right;
+
+
+}
+
+.Img-cons{
+    margin-top: 150px;
+    width: 50%;
+}
+.Img-cons .img{
+    width: 500px;
+    height: 550px;
+}
+
+.Img-cons .img-card{
+    width: 220px;
+    height: 240px;
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+
+}
+
+/*  */
