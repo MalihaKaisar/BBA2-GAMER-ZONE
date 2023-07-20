@@ -234,16 +234,17 @@ nav {
 
 }
 
-.insta-content{
+.insta-content {
     margin-right: 250px;
     width: 50%;
 }
-.play-instant-title{
-   text-align: right;
+
+.play-instant-title {
+    text-align: right;
 
 }
 
-.text-pink-c-d{
+.text-pink-c-d {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -251,25 +252,27 @@ nav {
     font-weight: 700;
 
 }
+
 .play-instant-para {
     margin-top: 10px;
     color: #534C64;
-    font-size: .8rem;
+    font-size: .6rem;
     text-align: right;
 
 
 }
 
-.Img-cons{
+.Img-cons {
     margin-top: 150px;
     width: 50%;
 }
-.Img-cons .img{
+
+.Img-cons .img {
     width: 500px;
     height: 550px;
 }
 
-.Img-cons .img-card{
+.Img-cons .img-card {
     width: 220px;
     height: 240px;
     position: relative;
@@ -278,4 +281,134 @@ nav {
 
 }
 
-/*  */
+/* game types start here */
+
+.game-type {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    height: 100px;
+    width: 85%;
+    margin-left: 90px;
+}
+
+.nesting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nesting img {
+    width: 40px;
+    height: 40px;
+}
+
+.nesting .game-name {
+    color: #0B0223;
+    font-size: .9rem;
+    font-weight: 600;
+    justify-content: center;
+
+
+}
+
+.nesting {
+    width: 220px;
+    height: 60px;
+
+}
+
+.nesting:hover {
+    border: 3px solid #F948B2;
+    border-radius: 40px;
+}
+
+.game-name:hover {
+    color: #F948B2;
+
+}
+
+.game6 {
+    padding-left: 80px;
+}
+
+.game7 {
+    padding-left: 60px;
+
+}
+
+.game8 {
+    padding-left: 60px;
+}
+
+.game9 {
+    padding-left: 80px;
+}
+
+/* footer section starts here */
+.footer-section {
+    margin-top: 50px;
+    width: 100%;
+    height: 430px;
+    background-color: #0B0223;
+}
+
+
+.footer-here {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.footer-here>.logo-game {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 350px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.footer-about-us {
+    margin: 30px 0px 30px 200px;
+    display: flex;
+    color: white;
+    gap: 40px;
+
+}
+
+.text-para-here {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.text-para-here .ft {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .8rem;
+    font-weight: 500;
+    margin-left: 100px;
+
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+
+}
+
+
+
+.footer-here> .icon{
+    margin-left: 320px;
+}
+.icon> .fa{
+    color: white;
+    padding: 20px;
+}
